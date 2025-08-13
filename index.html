@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UT JUNIOR - Soluções Digitais</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <nav class="fixed w-full bg-[#0a192f]/90 backdrop-blur-md z-50 border-b border-[#1e2b47]">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="https://i.ibb.co/nMd7ghFr/UT-JUNIOR-logo.png" alt="UT JUNIOR Logo" class="h-12">
+                    <span class="logo-text text-white text-xl ml-3 hidden md:block">UT JUNIOR</span>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-white hover:text-[#64ffda]">Home</a>
+                    <a href="#services" class="nav-link text-white hover:text-[#64ffda]">Serviços</a>
+                    <a href="#portfolio" class="nav-link text-white hover:text-[#64ffda]">Portfólio</a>
+                    <a href="#about" class="nav-link text-white hover:text-[#64ffda]">Sobre Nós</a>
+                    <a href="#contact" class="nav-link text-white hover:text-[#64ffda]">Contato</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0 relative">
+                    <div class="ink-effect top-0 left-0"></div>
+                    <div class="ink-effect bottom-0 right-0"></div>
+                    
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Transformando ideias em <span class="text-[#64ffda]">realidade digital</span>
+                    </h1>
+                    <p class="text-lg text-gray-300 mb-8">
+                        Somos a UT JUNIOR, especialistas em soluções digitais que impulsionam seu negócio para o próximo nível.
+                    </p>
+                    <a href="#contact" class="btn-primary px-8 py-3 rounded-md font-semibold inline-block">
+                        Solicitar Orçamento <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <div class="md:w-1/2 flex justify-center relative">
+                    <img src="https://i.ibb.co/nMd7ghFr/UT-JUNIOR-logo.png" alt="UT JUNIOR Logo" class="w-64 md:w-96 floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-[#0a192f]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-white mb-4">Nossos <span class="text-[#64ffda]">Serviços</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Oferecemos soluções digitais completas para alavancar sua presença online
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="service-card p-8 rounded-lg">
+                    <div class="text-[#64ffda] text-4xl mb-6">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Criação de Sites</h3>
+                    <p class="text-gray-400">
+                        Desenvolvemos sites modernos, responsivos e otimizados para conversão, garantindo a melhor experiência para seus clientes.
+                    </p>
+                </div>
+                
+                <div class="service-card p-8 rounded-lg">
+                    <div class="text-[#64ffda] text-4xl mb-6">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Design de Logos</h3>
+                    <p class="text-gray-400">
+                        Criamos identidades visuais marcantes que representam sua marca de forma única e memorável.
+                    </p>
+                </div>
+                
+                <div class="service-card p-8 rounded-lg">
+                    <div class="text-[#64ffda] text-4xl mb-6">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Tráfego Pago</h3>
+                    <p class="text-gray-400">
+                        Gerenciamos campanhas de anúncios digitais para direcionar o público certo ao seu negócio com máximo retorno.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 bg-[#0a192f] border-t border-[#1e2b47]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-white mb-4">Nosso <span class="text-[#64ffda]">Portfólio</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Confira alguns dos projetos que desenvolvemos para nossos clientes
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="portfolio-item rounded-lg overflow-hidden h-64">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Website Project" class="w-full h-full object-cover">
+                    <div class="portfolio-overlay">
+                        <h3 class="text-xl font-bold text-white mb-2">E-commerce Fashion</h3>
+                        <p class="text-gray-300 text-center px-4 mb-4">Loja virtual completa com integração de pagamentos</p>
+                        <a href="#" class="btn-primary px-4 py-2 rounded-md text-sm">Ver Detalhes</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item rounded-lg overflow-hidden h-64">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Logo Design" class="w-full h-full object-cover">
+                    <div class="portfolio-overlay">
+                        <h3 class="text-xl font-bold text-white mb-2">Brand Identity</h3>
+                        <p class="text-gray-300 text-center px-4 mb-4">Identidade visual completa para startup de tecnologia</p>
+                        <a href="#" class="btn-primary px-4 py-2 rounded-md text-sm">Ver Detalhes</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item rounded-lg overflow-hidden h-64">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Digital Marketing" class="w-full h-full object-cover">
+                    <div class="portfolio-overlay">
+                        <h3 class="text-xl font-bold text-white mb-2">Campanha de Tráfego</h3>
+                        <p class="text-gray-300 text-center px-4 mb-4">Gestão de anúncios para clínica médica</p>
+                        <a href="#" class="btn-primary px-4 py-2 rounded-md text-sm">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="btn-primary px-8 py-3 rounded-md font-semibold inline-block">
+                    Ver Mais Projetos <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-[#0a192f] border-t border-[#1e2b47]">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0 md:pr-12">
+                    <img src="https://images.unsplash.com/photo-1571260899304-42eee36d2f6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Equipe UT JUNIOR" class="rounded-lg shadow-xl w-full">
+                </div>
+                
+                <div class="md:w-1/2">
+                    <h2 class="section-title text-3xl md:text-4xl font-bold text-white mb-6">Sobre a <span class="text-[#64ffda]">UT JUNIOR</span></h2>
+                    <p class="text-gray-400 mb-6">
+                        Somos uma empresa júnior formada por estudantes apaixonados por tecnologia e inovação. Nossa missão é oferecer soluções digitais de alta qualidade a preços acessíveis, enquanto desenvolvemos nossas habilidades profissionais.
+                    </p>
+                    <p class="text-gray-400 mb-6">
+                        Combinamos o conhecimento acadêmico mais recente com práticas de mercado para entregar projetos que realmente fazem a diferença para nossos clientes.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-[#112240] px-4 py-2 rounded-md">
+                            <span class="text-[#64ffda] font-semibold">+50</span>
+                            <span class="text-gray-300 ml-2">Projetos</span>
+                        </div>
+                        <div class="bg-[#112240] px-4 py-2 rounded-md">
+                            <span class="text-[#64ffda] font-semibold">+30</span>
+                            <span class="text-gray-300 ml-2">Clientes</span>
+                        </div>
+                        <div class="bg-[#112240] px-4 py-2 rounded-md">
+                            <span class="text-[#64ffda] font-semibold">100%</span>
+                            <span class="text-gray-300 ml-2">Satisfação</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold text-white mb-8 text-center">Conheça Nosso <span class="text-[#64ffda]">Time</span></h3>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="team-card bg-[#112240] rounded-lg overflow-hidden border border-[#1e2b47]">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Team Member" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="text-white font-bold">Carlos Silva</h4>
+                            <p class="text-[#64ffda] text-sm">CEO & Desenvolvedor</p>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card bg-[#112240] rounded-lg overflow-hidden border border-[#1e2b47]">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="Team Member" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="text-white font-bold">Ana Oliveira</h4>
+                            <p class="text-[#64ffda] text-sm">Designer Chefe</p>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card bg-[#112240] rounded-lg overflow-hidden border border-[#1e2b47]">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Team Member" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="text-white font-bold">Pedro Santos</h4>
+                            <p class="text-[#64ffda] text-sm">Especialista em Marketing</p>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card bg-[#112240] rounded-lg overflow-hidden border border-[#1e2b47]">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Team Member" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="text-white font-bold">Mariana Costa</h4>
+                            <p class="text-[#64ffda] text-sm">Gerente de Projetos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-[#0a192f] border-t border-[#1e2b47]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-white mb-4">Entre em <span class="text-[#64ffda]">Contato</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Pronto para transformar sua ideia em realidade? Envie-nos uma mensagem!
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-12 md:mb-0 md:pr-12">
+                    
+                    <form class="space-y-6" action="https://formspree.io/f/xzzvokee" method="post">
+                        <div>
+                            <label for="name" class="block text-gray-300 mb-2">Nome</label>
+                            <input type="text" id="name" name="name" class="input-field w-full px-4 py-3 rounded-md focus:outline-none" required>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-300 mb-2">E-mail</label>
+                            <input type="email" id="email" name="email" class="input-field w-full px-4 py-3 rounded-md focus:outline-none" required>
+                        </div>
+                        
+                        <div>
+                            <label for="service" class="block text-gray-300 mb-2">Serviço de Interesse</label>
+                            <select id="service" name="service" class="input-field w-full px-4 py-3 rounded-md focus:outline-none" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="website">Criação de Sites</option>
+                                <option value="logo">Design de Logos</option>
+                                <option value="traffic">Tráfego Pago</option>
+                                <option value="other">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-gray-300 mb-2">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" class="input-field w-full px-4 py-3 rounded-md focus:outline-none" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary w-full px-6 py-3 rounded-md font-semibold">
+                            Enviar Mensagem <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                    
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-[#112240] p-8 rounded-lg border border-[#1e2b47] h-full">
+                        <h3 class="text-xl font-bold text-white mb-6">Informações de Contato</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="text-[#64ffda] text-xl mt-1 mr-4">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold">Endereço</h4>
+                                    <p class="text-gray-400">Universidade Tecnológica, Campus Central, Sala 205</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="text-[#64ffda] text-xl mt-1 mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold">E-mail</h4>
+                                    <p class="text-gray-400">contato@utjunior.com.br</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="text-[#64ffda] text-xl mt-1 mr-4">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold">Telefone</h4>
+                                    <p class="text-gray-400">(XX) XXXX-XXXX</p>
+                                </div>
+                            </div>
+                            
+                            <div class="pt-6">
+                                <h4 class="text-white font-semibold mb-4">Siga-nos nas Redes Sociais</h4>
+                                <div class="flex space-x-4">
+                                    <a href="#" class="social-icon rounded-full flex items-center justify-center">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#" class="social-icon rounded-full flex items-center justify-center">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="social-icon rounded-full flex items-center justify-center">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social-icon rounded-full flex items-center justify-center">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#020c1b] py-12 border-t border-[#1e2b47]">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center">
+                        <img src="https://i.ibb.co/nMd7ghFr/UT-JUNIOR-logo.png" alt="UT JUNIOR Logo" class="h-10">
+                        <span class="logo-text text-white text-lg ml-3">UT JUNIOR</span>
+                    </div>
+                    <p class="text-gray-500 mt-2 text-sm">
+                        Transformando ideias em realidade digital
+                    </p>
+                </div>
+                
+                <div class="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0 text-center md:text-left">
+                    <div>
+                        <h4 class="text-white font-semibold mb-3">Links Rápidos</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="text-gray-400 hover:text-[#64ffda] text-sm">Home</a></li>
+                            <li><a href="#services" class="text-gray-400 hover:text-[#64ffda] text-sm">Serviços</a></li>
+                            <li><a href="#portfolio" class="text-gray-400 hover:text-[#64ffda] text-sm">Portfólio</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-[#64ffda] text-sm">Sobre Nós</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-[#64ffda] text-sm">Contato</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-white font-semibold mb-3">Serviços</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-[#64ffda] text-sm">Criação de Sites</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#64ffda] text-sm">Design de Logos</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#64ffda] text-sm">Tráfego Pago</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#64ffda] text-sm">Consultoria Digital</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-white font-semibold mb-3">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-[#64ffda] text-sm">Termos de Serviço</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#64ffda] text-sm">Política de Privacidade</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-[#1e2b47] mt-12 pt-8 text-center">
+                <p class="text-gray-500 text-sm">
+                    &copy; 2023 UT JUNIOR. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.md\\:hidden button').addEventListener('click', function() {
+            alert('Menu mobile será implementado aqui');
+        });
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
