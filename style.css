@@ -30,6 +30,12 @@
             background-size: cover;
             background-position: center;
         }
+         .ecommerce-bg {
+            background: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.9)), 
+            url(/Assets/pexels-mikhail-nilov-8107821.jpg);
+            background-size: cover;
+            background-position: center;
+        }
         
         .btn-primary {
             background: transparent;
